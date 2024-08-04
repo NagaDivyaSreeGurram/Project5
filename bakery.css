@@ -1,0 +1,90 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:black ;
+}
+
+.head{
+    text-align: center;
+    color:white;
+    margin-top:10px;
+    margin:30px;
+    font-size:40px;
+    text-align:center;
+}
+nav{
+    color:rgb(216, 16, 16);
+    padding: 10px;
+    font-size:25px
+}
+nav ul{
+    list-style-type: none;
+     margin: 0;
+     padding: 0;
+}
+nav ul li {
+    display:inline;
+    color:aqua;
+    margin-right:20px;
+}
+nav ul li a{
+    color: black;
+   text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline
+}
+.container{
+    margin-top: 25px;
+    color:white;
+}
+.container .row{
+    display: flex;
+    justify-content:center;
+}
+.container .row .img img{
+    margin-inline: 15px;
+    text-align:center;
+    justify-content: center;
+}
+.container .row .img img{
+    width:100%;
+}
+.container .row .img img{
+    width:104%;
+}
+.container .row .img button{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    border:none;
+    color:white;
+    font-size:22px;
+    border-radius: 3px;
+}
+.container .row .img button:hover{
+    border: 3px solid white;
+    font-size: 27px;
+}
+.container .row .img h2{
+    margin-top:10px;
+    font-size:28px;
+}
+.container .row .img h2:hover{
+    color: red
+}
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+}
+@media screen and (min-width: 320px){
+    .container{
+            width: 100%;
+            padding:5px 10px;
+    }
+}
+
